@@ -19,6 +19,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchButton(_ sender: Any) {
+        let alert = UIAlertController(title: "Enter the name of the city:", message: nil, preferredStyle: .alert)        
+        let searchAction = UIAlertAction(title: "Ok", style: .default) { action in
+            
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        alert.addAction(searchAction)
+        alert.addAction(cancelAction)
+        present(alert, animated: true)
+
+        
+        
     }
     
 }
