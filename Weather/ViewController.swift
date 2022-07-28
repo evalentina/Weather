@@ -19,8 +19,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchButton(_ sender: Any) {
-        let alert = UIAlertController(title: "Enter the name of the city:", message: nil, preferredStyle: .alert)        
+        
+        let alert = UIAlertController(title: "Find out the weather forecast", message: nil, preferredStyle: .alert)
+        alert.addTextField() { textField in
+            textField.placeholder = "Enter the name of the city..."
+        }
         let searchAction = UIAlertAction(title: "Ok", style: .default) { action in
+            let textField = alert.textFields?.first
+            guard let cityName = textField?.text else { return }
             
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
@@ -28,8 +34,6 @@ class ViewController: UIViewController {
         alert.addAction(cancelAction)
         present(alert, animated: true)
 
-        
-        
     }
     
 }
