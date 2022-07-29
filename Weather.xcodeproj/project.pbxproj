@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82F75FD2893AF24003F9DBC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F75FC2893AF24003F9DBC /* Extension.swift */; };
 		C84E45712891A57B00C02C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E45702891A57B00C02C9D /* AppDelegate.swift */; };
 		C84E45732891A57B00C02C9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E45722891A57B00C02C9D /* SceneDelegate.swift */; };
 		C84E45752891A57B00C02C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E45742891A57B00C02C9D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C82F75FC2893AF24003F9DBC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		C84E456D2891A57B00C02C9D /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84E45702891A57B00C02C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C84E45722891A57B00C02C9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C82F75FB2893AF0C003F9DBC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C82F75FC2893AF24003F9DBC /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		C84E45642891A57B00C02C9D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		C84E456F2891A57B00C02C9D /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				C82F75FB2893AF0C003F9DBC /* Extension */,
 				C84E45702891A57B00C02C9D /* AppDelegate.swift */,
 				C84E45722891A57B00C02C9D /* SceneDelegate.swift */,
 				C84E45742891A57B00C02C9D /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				C84E45752891A57B00C02C9D /* ViewController.swift in Sources */,
 				C84E45712891A57B00C02C9D /* AppDelegate.swift in Sources */,
 				C84E45732891A57B00C02C9D /* SceneDelegate.swift in Sources */,
+				C82F75FD2893AF24003F9DBC /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
