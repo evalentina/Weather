@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchButton(_ sender: Any) {
-        
+        self.alertConfiguration { cityName in
+            
+        }
     }
     
 }

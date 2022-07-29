@@ -47,6 +47,48 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C82F75FE2893B0EA003F9DBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C82F75FF2893B0F1003F9DBC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C84E45742891A57B00C02C9D /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C82F76002893B109003F9DBC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C84E45702891A57B00C02C9D /* AppDelegate.swift */,
+				C84E45722891A57B00C02C9D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C82F76012893B19D003F9DBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C84E45792891A58100C02C9D /* Assets.xcassets */,
+				C84E457E2891A58100C02C9D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C82F76022893B23A003F9DBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C84E457B2891A58100C02C9D /* LaunchScreen.storyboard */,
+				C84E45762891A57B00C02C9D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C84E45642891A57B00C02C9D = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +108,12 @@
 		C84E456F2891A57B00C02C9D /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				C82F75FE2893B0EA003F9DBC /* Model */,
+				C82F75FF2893B0F1003F9DBC /* ViewController */,
+				C82F76002893B109003F9DBC /* AppDelegate */,
+				C82F76022893B23A003F9DBC /* Views */,
 				C82F75FB2893AF0C003F9DBC /* Extension */,
-				C84E45702891A57B00C02C9D /* AppDelegate.swift */,
-				C84E45722891A57B00C02C9D /* SceneDelegate.swift */,
-				C84E45742891A57B00C02C9D /* ViewController.swift */,
-				C84E45762891A57B00C02C9D /* Main.storyboard */,
-				C84E45792891A58100C02C9D /* Assets.xcassets */,
-				C84E457B2891A58100C02C9D /* LaunchScreen.storyboard */,
-				C84E457E2891A58100C02C9D /* Info.plist */,
+				C82F76012893B19D003F9DBC /* Resources */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
